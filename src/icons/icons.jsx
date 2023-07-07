@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import {
   IconGitHub,
-  IconInstagram,
   IconLinkedIn,
-  IconYouTube,
+  IconSubstack
 } from './../icons';
 
 const socialMedia = [
@@ -14,7 +13,11 @@ const socialMedia = [
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/dylan-young-1a565a1b7/',
-  },
+  }, 
+  {
+    name: 'Substack',
+    url: 'https://substack.com/@dylansyoung',
+  }
   // {
   //   name: 'Instagram',
   //   url: 'https://www.instagram.com/slau.ghtered',
@@ -47,12 +50,10 @@ class Icons extends Component {
     switch (name) {
       case 'GitHub':
         return <IconGitHub />;
-      case 'Instagram':
-        return <IconInstagram />;
       case 'LinkedIn':
         return <IconLinkedIn />;
-      case 'YouTube':
-        return <IconYouTube />;
+      case 'Substack':
+        return <IconSubstack />;  
       default:
     }
   }
