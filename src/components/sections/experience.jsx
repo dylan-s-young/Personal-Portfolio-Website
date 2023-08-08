@@ -15,9 +15,9 @@ class Experience extends Component {
         city: 'Stamford',
         state: 'CT',
         details: [
-          'Achieved a 15% reduction in call center volume through the creation of an innovative feature targeting a customer pain point',
-          'Adhere to MVVM architecture principles to enhance the user experience by developing and enhancing existing features', 
-          'Utilized Jira to effectively track sprints, stories, and deliver successful results on time while working on the MySynchrony iOS team'
+          'Developed and presented a proof-of-concept (PoC) feature intended to reduce call center workload by enabling customers to pay off promotional balances',
+          'Enhanced user experience by adhering to MVVM architecture principles and developing and enhancing existing features', 
+          'Utilize Jira to effectively track sprints, stories, and deliver successful results on time'
         ],
         color: 'yellow',
       },{
@@ -29,7 +29,7 @@ class Experience extends Component {
         city: 'Norwalk',
         state: 'CT',
         details: [
-          'Reviewed and optimized existing backend code by implementing different data structures',
+          'Improved system performance and reduced latency by implementing optimized data structures in backend code',
           'Implemented third-party services that increased productivity by automating manual tasks',
           'Assisted in developing and providing maintenance for a meeting manager website using the .NET framework'
         ],
